@@ -12,9 +12,9 @@
       Teal: hsl(174, 63%, 62%)
   */
 
-  --hue: 207;
-  --sat: 90%;
-  --lig: 61%;
+  --hue: 120; /* Hue value for lime green */
+  --sat: 100%; /* Saturation value for lime green */
+  --lig: 50%; /* Lightness value for lime green */
   --first-color: hsl(var(--hue), var(--sat), var(--lig));
   --first-color-alt: hsl(var(--hue), var(--sat), 57%); /* -4% */
   --title-color: hsl(var(--hue), 12%, 15%);

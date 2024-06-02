@@ -107,8 +107,10 @@
 
         <div class="profile__buttons">
           <!-- Insert your CV -->
-          <a download="" href="assets/pdf/Gianell-Cv.pdf" class="button">
-            <i class="ri-download-line"></i> Mark Bello's CV
+          <a download="" href="assets/img/markbellocv.pdf" class="button">
+            <span style="color: black">
+              <i class="ri-download-line"></i> Mark Bello's CV
+            </span>
           </a>
 
           <div class="profile__buttons-small">
@@ -153,17 +155,17 @@
             class="projects__content grid filters__active"
             data-content
             id="projects"
-            >
+          >
             <article class="projects__card">
-              <img src="assets/img/TEMPORARY.jpg" alt="" class="projects__img" />
+              <img
+                src="assets/img/TEMPORARY.jpg"
+                alt=""
+                class="projects__img"
+              />
               <div class="projects__modal">
                 <div>
-                  <span class="projects__subtitle"
-                    >ON WORKING...</span
-                  >
-                  <h3 class="projects__title">
-                    ON WORKING...
-                  </h3>
+                  <span class="projects__subtitle">ON WORKING...</span>
+                  <h3 class="projects__title">ON WORKING...</h3>
                   <a
                     href="https://github.com/m4rkbello"
                     class="projects__button button button__small"
@@ -175,24 +177,23 @@
             </article>
 
             <article class="projects__card">
-                <img src="assets/img/DTRMS+.jpg" alt="" class="projects__img" />
-                <div class="projects__modal">
-                  <div>
-                    <span class="projects__subtitle"
-                      >WEB | REACTJS, TAILWINDCSS, DAISYUI, REDUX, AXIOS, LARAVEL, MYSQL</span
-                    >
-                    <h3 class="projects__title">
-                      DTRMS+
-                    </h3>
-                    <a
-                      href="https://markbello-dtrms.netlify.app/"
-                      class="projects__button button button__small"
-                    >
-                      <i class="ri-link"></i>
-                    </a>
-                  </div>
+              <img src="assets/img/DTRMS+.jpg" alt="" class="projects__img" />
+              <div class="projects__modal">
+                <div>
+                  <span class="projects__subtitle"
+                    >WEB | REACTJS, TAILWINDCSS, DAISYUI, REDUX, AXIOS, LARAVEL,
+                    MYSQL</span
+                  >
+                  <h3 class="projects__title">DTRMS+</h3>
+                  <a
+                    href="https://markbello-dtrms.netlify.app/"
+                    class="projects__button button button__small"
+                  >
+                    <i class="ri-link"></i>
+                  </a>
                 </div>
-              </article>
+              </div>
+            </article>
 
             <article class="projects__card">
               <img
@@ -338,6 +339,40 @@
           <!--=============== SKILLS ===============-->
           <div class="skills__content grid" data-content id="skills">
             <div class="skills__area">
+              <h3 class="skills__title">PROGRAMMING LANGUAGE</h3>
+
+              <div class="skills__box">
+                <div class="skills__group">
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">Javascript</h3>
+                      <span class="skills__level">Advanced</span>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">Typescript</h3>
+                      <span class="skills__level">Intermediate</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skills__group">
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">PHP</h3>
+                      <span class="skills__level">Advanced</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skills__area">
               <h3 class="skills__title">FRONT-END DEVELOPMENT</h3>
 
               <div class="skills__box">
@@ -361,13 +396,45 @@
                   <div class="skills__data">
                     <i class="ri-checkbox-circle-line"></i>
                     <div>
-                      <h3 class="skills__name">TailwindCss</h3>
-                      <span class="skills__level">Moderate</span>
+                      <h3 class="skills__name">TailwindCSS</h3>
+                      <span class="skills__level">Advanced</span>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">Redux</h3>
+                      <span class="skills__level">Advanced</span>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">Marterial UI</h3>
+                      <span class="skills__level">Advanced</span>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">Shadcn</h3>
+                      <span class="skills__level">Advanced</span>
                     </div>
                   </div>
                 </div>
 
                 <div class="skills__group">
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">CRA</h3>
+                      <span class="skills__level">Advanced</span>
+                    </div>
+                  </div>
+
                   <div class="skills__data">
                     <i class="ri-checkbox-circle-line"></i>
                     <div>
@@ -387,7 +454,23 @@
                   <div class="skills__data">
                     <i class="ri-checkbox-circle-line"></i>
                     <div>
-                      <h3 class="skills__name">Next.js</h3>
+                      <h3 class="skills__name">DaisyUI</h3>
+                      <span class="skills__level">Advanced</span>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">NextJS</h3>
+                      <span class="skills__level">Beginner</span>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">Headless UI</h3>
                       <span class="skills__level">Intermediate</span>
                     </div>
                   </div>
@@ -403,18 +486,8 @@
                 <div class="skills__group">
                   <div class="skills__data">
                     <i class="ri-checkbox-circle-line"></i>
-
                     <div>
-                      <h3 class="skills__name">NodeJs</h3>
-                      <span class="skills__level">Intermediate</span>
-                    </div>
-                  </div>
-
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-
-                    <div>
-                      <h3 class="skills__name">Xampp Apache Server</h3>
+                      <h3 class="skills__name">Laravel</h3>
                       <span class="skills__level">Advanced</span>
                     </div>
                   </div>
@@ -423,8 +496,8 @@
                     <i class="ri-checkbox-circle-line"></i>
 
                     <div>
-                      <h3 class="skills__name">Php</h3>
-                      <span class="skills__level">Moderate</span>
+                      <h3 class="skills__name">PHP</h3>
+                      <span class="skills__level">Advanced</span>
                     </div>
                   </div>
                 </div>
@@ -433,7 +506,7 @@
                   <div class="skills__data">
                     <i class="ri-checkbox-circle-line"></i>
                     <div>
-                      <h3 class="skills__name">Django</h3>
+                      <h3 class="skills__name">NodeJs</h3>
                       <span class="skills__level">Moderate</span>
                     </div>
                   </div>
@@ -442,16 +515,7 @@
                     <i class="ri-checkbox-circle-line"></i>
 
                     <div>
-                      <h3 class="skills__name">Java</h3>
-                      <span class="skills__level">Intermediate</span>
-                    </div>
-                  </div>
-
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-
-                    <div>
-                      <h3 class="skills__name">Python</h3>
+                      <h3 class="skills__name">Express</h3>
                       <span class="skills__level">Intermediate</span>
                     </div>
                   </div>
@@ -462,7 +526,7 @@
 
             <!--=============== DATABASES ===============-->
             <div class="skills__area">
-              <h3 class="skills__title">MOBILE DEVELOPMENT</h3>
+              <h3 class="skills__title">MOBILE DEVELOPMENT(I WANT TO LEARN)</h3>
               <div class="skills__box">
                 <div class="skills__group">
                   <div class="skills__data">
@@ -470,7 +534,7 @@
 
                     <div>
                       <h3 class="skills__name">React Native</h3>
-                      <span class="skills__level">Advanced</span>
+                      <span class="skills__level">Beginner</span>
                     </div>
                   </div>
 
@@ -478,7 +542,7 @@
                     <i class="ri-checkbox-circle-line"></i>
                     <div>
                       <h3 class="skills__name">Expo</h3>
-                      <span class="skills__level">Intermediate</span>
+                      <span class="skills__level">Beginner</span>
                     </div>
                   </div>
                 </div>
@@ -489,7 +553,7 @@
 
                     <div>
                       <h3 class="skills__name">SQLite</h3>
-                      <span class="skills__level">Intermediate</span>
+                      <span class="skills__level">Beginner</span>
                     </div>
                   </div>
 
@@ -497,8 +561,8 @@
                     <i class="ri-checkbox-circle-line"></i>
 
                     <div>
-                      <h3 class="skills__name">Firebase</h3>
-                      <span class="skills__level">Moderate</span>
+                      <h3 class="skills__name">Laravel</h3>
+                      <span class="skills__level">Advanced</span>
                     </div>
                   </div>
                 </div>
@@ -519,32 +583,14 @@
                       <span class="skills__level">Advanced</span>
                     </div>
                   </div>
-
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-                    <div>
-                      <h3 class="skills__name">MongoDB</h3>
-                      <span class="skills__level">Intermediate</span>
-                    </div>
-                  </div>
                 </div>
 
                 <div class="skills__group">
                   <div class="skills__data">
                     <i class="ri-checkbox-circle-line"></i>
-
                     <div>
-                      <h3 class="skills__name">SQLite</h3>
+                      <h3 class="skills__name">MongoDB</h3>
                       <span class="skills__level">Intermediate</span>
-                    </div>
-                  </div>
-
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-
-                    <div>
-                      <h3 class="skills__name">Firebase</h3>
-                      <span class="skills__level">Moderate</span>
                     </div>
                   </div>
                 </div>
@@ -559,55 +605,26 @@
                 <div class="skills__group">
                   <div class="skills__data">
                     <i class="ri-checkbox-circle-line"></i>
-
                     <div>
-                      <h3 class="skills__name">NetBeans</h3>
-                      <span class="skills__level">Moderate</span>
+                      <h3 class="skills__name">VB.NET</h3>
+                      <span class="skills__level">Beginner</span>
                     </div>
                   </div>
 
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-                    <div>
-                      <h3 class="skills__name">PyGUI / Tkinter /PyQT</h3>
-                      <span class="skills__level">Intermediate</span>
-                    </div>
-                  </div>
+           
 
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-
-                    <div>
-                      <h3 class="skills__name">Java</h3>
-                      <span class="skills__level">Intermediate</span>
-                    </div>
-                  </div>
+            
                 </div>
 
                 <div class="skills__group">
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-
-                    <div>
-                      <h3 class="skills__name">MySQL</h3>
-                      <span class="skills__level">Intermediate</span>
-                    </div>
-                  </div>
-
-                  <div class="skills__data">
-                    <i class="ri-checkbox-circle-line"></i>
-
-                    <div>
-                      <h3 class="skills__name">MongoDB</h3>
-                      <span class="skills__level">Moderate</span>
-                    </div>
-                  </div>
+           
+     
 
                   <div class="skills__data">
                     <i class="ri-checkbox-circle-line"></i>
                     <div>
                       <h3 class="skills__name">ElectronJs</h3>
-                      <span class="skills__level">Moderate</span>
+                      <span class="skills__level">Begi</span>
                     </div>
                   </div>
                 </div>
@@ -654,7 +671,7 @@
 
                     <div>
                       <h3 class="skills__name">Figma</h3>
-                      <span class="skills__level">Basic</span>
+                      <span class="skills__level">Beginner</span>
                     </div>
                   </div>
 
@@ -714,7 +731,7 @@
                     <i class="ri-checkbox-circle-line"></i>
                     <div>
                       <h3 class="skills__name">Adobe Illustrator</h3>
-                      <span class="skills__level">Basic</span>
+                      <span class="skills__level">Moderate</span>
                     </div>
                   </div>
 
@@ -748,7 +765,7 @@
 
             <!--=============== VIDEO ===============-->
             <div class="skills__area">
-              <h3 class="skills__title">VIDEO EDITING APPS</h3>
+              <h3 class="skills__title">DIGITAL WORK STATION</h3>
               <div class="skills__box">
                 <div class="skills__group">
                   <div class="skills__data">
@@ -791,7 +808,7 @@
 
             <!--=============== MUSIC TOOLS ===============-->
             <div class="skills__area">
-              <h3 class="skills__title">MUSIC EDITING APPS</h3>
+              <h3 class="skills__title">DIGITAL AUDIO WORKSTATION</h3>
               <div class="skills__box">
                 <div class="skills__group">
                   <div class="skills__data">
@@ -865,7 +882,7 @@
                     <i class="ri-checkbox-circle-line"></i>
                     <div>
                       <h3 class="skills__name">Docker</h3>
-                      <span class="skills__level">Moderate</span>
+                      <span class="skills__level">Beginner</span>
                     </div>
                   </div>
 
@@ -879,6 +896,33 @@
                 </div>
               </div>
             </div>
+
+            <div class="skills__area">
+                <h3 class="skills__title">HOSTING</h3>
+                <div class="skills__box">
+                  <div class="skills__group">
+                    <div class="skills__data">
+                      <i class="ri-checkbox-circle-line"></i>
+                      <div>
+                        <h3 class="skills__name">CPANEL</h3>
+                        <span class="skills__level">Intermediate</span>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="skills__group">
+                    <div class="skills__data">
+                      <i class="ri-checkbox-circle-line"></i>
+                      <div>
+                        <h3 class="skills__name">Hostinger</h3>
+                        <span class="skills__level">Intermediate</span>
+                      </div>
+                    </div>
+  
+   
+                  </div>
+                </div>
+              </div>
           </div>
         </div>
       </section>
